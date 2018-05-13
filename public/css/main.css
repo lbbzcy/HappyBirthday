@@ -71,11 +71,16 @@
   }
   
   .modal-content {
-      /*background: #ffffff;*/
+      background: none;
+      border: none;
   }
-  
+  .modal-dialog {
+      width: 100%;
+      margin: 0px;
+  }
+
   .time-font {
-      color: #A94442;
+      color: blue;
   }
   .fullimg {
       width: 100%;
