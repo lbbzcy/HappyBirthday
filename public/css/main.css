@@ -71,11 +71,11 @@
   }
   
   .modal-content {
-      background: #040404;
+      /*background: #ffffff;*/
   }
   
   .time-font {
-      color: #fff;
+      color: #A94442;
   }
   .fullimg {
       width: 100%;
