@@ -1,7 +1,7 @@
 extends layout
 
 block content
-  audio(src='/audios/music.mp3', autoplay='true', loop='loop', id='bg-music')
+  audio(src='/audios/music.mp3', preload="auto", loop='loop', id='bg-music')
   div#back
     div.mask
     <!-- 设置展示的图片，github pages不能有后台程序只能一条一条手动添加了 囧 -->
@@ -63,16 +63,6 @@ block content
           img(class='fullimg' src='/images/27.jpg')
         div(class='item')
           img(class='fullimg' src='/images/28.jpg')
-        div(class='item')
-          img(class='fullimg' src='/images/29.jpg')
-        div(class='item')
-          img(class='fullimg' src='/images/30.jpg')
-        div(class='item')
-          img(class='fullimg' src='/images/31.jpg')
-        div(class='item')
-          img(class='fullimg' src='/images/32.jpg')
-        div(class='item')
-          img(class='fullimg' src='/images/33.jpg')
     div(class='modal show' style={top: '24%'})
       div(class='modal-dialog' style={opacity: 0.9})
         div(class='modal-content' style={opacity: 0.85})
